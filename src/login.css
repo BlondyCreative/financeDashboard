@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow: hidden;
+}
+
+.hero-section {
+  flex: 1;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.35));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.logo-icon {
+  font-size: 32px;
+}
+
+.hero-text {
+  margin-top: auto;
+  margin-bottom: 60px;
+  z-index: 10;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Right Form Section */
+.form-section {
+  width: 460px;
+  background: white;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-container {
+  width: 100%;
+  max-width: 380px;
+}
+
+.sign-in-top {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e2937;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 32px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.forgot {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 28px;
+}
+
+.divider {
+  text-align: center;
+  position: relative;
+  margin: 24px 0;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.divider span {
+  background: white;
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.social-btn img {
+  width: 22px;
+  height: 22px;
+}
+
+.register-text {
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.register-text a {
+  color: #3b82f6;
+  font-weight: 500;
+}
